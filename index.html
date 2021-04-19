@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelluv</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- header section -->
+      <section class="carousel-promote">
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-interval="2000" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-interval="2000" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-interval="2000" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/up1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/up1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/up1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      <!-- card detailed informations -->
+      <section class="detailed-info">
+        <div class="container mobile-detail">
+          <div class="row mobile-row">
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/mozza-goreng.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mozza Goreng</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals1">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/card 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mozza Corndog</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals2">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mobile-row">
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/potato cheeseball.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Potato Cheeseball</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals3">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/topokkiban.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Topokkiban</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals4">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mobile-row">
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/topokkiza.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Topokkiza</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals5">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/tteoboki.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Tteokkochi</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals6">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mobile-row">
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/mac n cheese.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mac N Cheese</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals7">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/rabokkibans.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Rabokkiban</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals8">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mobile-row">
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/ciok tomyum.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Cilok Tomyum</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals9">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/ramoga.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Ramozza</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals10">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mobile-row">
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/rabokkiban.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Fire Guldak</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="#ordermodals11">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+              <div class="card" style="width: 170px;">
+                <img src="image/odang.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Odeng</p>
+                  <h5 class="card-pricing">Rp 50.000</h5>
+                  <a href="#" class="btn btn-buyout" data-bs-toggle="modal" data-bs-target="ordermodals12">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Card Modals -->
+      <div class="modal fade" id="ordermodals1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ordermodals12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Oifyoo Pandaan | Korean Frozen Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Nama Produk :
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-buyout" style="width: 80px;" data-bs-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-buyout">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</html>
