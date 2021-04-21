@@ -1,6 +1,16 @@
+    .carousel-promote {
+        display: none;
+    }
+    .detailed-info {
+        display: none;
+    }
 /* mobile version */
 @media (min-width: 411px) and (max-width: 425px) {
+    .navbar-section {
+        display: none;
+    }
     .carousel-promote {
+        display: block;
         margin-top: 20px;
     }
     .carousel-indicators {
@@ -16,6 +26,7 @@
     }
     /* detailed info section */
     .detailed-info {
+        display: block;
         margin-top: 65px;
 
     }
@@ -44,4 +55,8 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+ }
+
+ @media (min-width: 1200px) {
+
  }
