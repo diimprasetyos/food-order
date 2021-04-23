@@ -3422,7 +3422,7 @@ textarea.form-control-lg {
   border-left: 0.3em solid transparent;
 }
 .dropdown-toggle:empty::after {
-  margin-left: 0;
+  margin-left: 10;
 }
 
 .dropdown-menu {
